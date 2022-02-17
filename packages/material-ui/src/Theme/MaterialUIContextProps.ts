@@ -1,59 +1,31 @@
-import {
-  Box,
-  Button,
-  Checkbox,
-  Divider,
-  FormControl,
-  FormControlLabel,
-  FormGroup,
-  FormHelperText,
-  FormLabel,
-  Grid,
-  IconButton,
-  Input,
-  InputLabel,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  MenuItem,
-  Paper,
-  Radio,
-  RadioGroup,
-  Slider,
-  SvgIcon,
-  TextField,
-  Typography,
-} from '@material-ui/core';
-
 export default interface MaterialUIContextProps {
-  Button?: Button;
-  Box?: Box;
-  Checkbox?: Checkbox;
-  Divider?: Divider;
-  Grid?: Grid;
-  FormControl?: FormControl;
-  FormControlLabel?: FormControlLabel;
-  FormGroup?: FormGroup;
-  FormHelperText?: FormHelperText;
-  FormLabel?: FormLabel;
-  IconButton?: IconButton;
-  Input?: Input;
-  InputLabel?: InputLabel;
-  List?: List;
-  ListItem?: ListItem;
-  ListItemIcon?: ListItemIcon;
-  ListItemText?: ListItemText;
-  MenuItem?: MenuItem;
-  Paper?: Paper;
-  Radio?: Radio;
-  RadioGroup?: RadioGroup;
-  Slider?: Slider;
-  TextField?: TextField;
-  Typography?: Typography;
-  AddIcon?: SvgIcon;
-  ArrowDownwardIcon?: SvgIcon;
-  ArrowUpwardIcon?: SvgIcon;
-  ErrorIcon?: SvgIcon;
-  RemoveIcon?: SvgIcon;
+  Button?: any;
+  Box?: any;
+  Checkbox?: any;
+  Divider?: any;
+  Grid?: any;
+  FormControl?: any;
+  FormControlLabel?: any;
+  FormGroup?: any;
+  FormHelperText?: any;
+  FormLabel?: any;
+  IconButton?: any;
+  Input?: any;
+  InputLabel?: any;
+  List?: any;
+  ListItem?: any;
+  ListItemIcon?: any;
+  ListItemText?: any;
+  MenuItem?: any;
+  Paper?: any;
+  Radio?: any;
+  RadioGroup?: any;
+  Slider?: any;
+  TextField?: any;
+  Typography?: any;
+  AddIcon?: any;
+  ArrowDownwardIcon?: any;
+  ArrowUpwardIcon?: any;
+  ErrorIcon?: any;
+  RemoveIcon?: any;
 }
